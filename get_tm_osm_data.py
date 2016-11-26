@@ -15,8 +15,8 @@ import os
 def get_tm_project_json(task_id):
 	
 	#create url from hot tasking manager task_id
-	url = 'http://tasks.hotosm.org/project/'+str(task_id)+'/tasks.json'
-	referer = 'http://tasks.hotosm.org/project/'+str(task_id)
+	url = 'http://tasks.mapbox.com/project/'+str(task_id)+'/tasks.json'
+	referer = 'http://tasks.mapbox.com/project/'+str(task_id)
 	x_req = 'XMLHttpRequest\r\n'
 	
 	#send xmlhttp request
